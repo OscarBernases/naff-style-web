@@ -1,0 +1,227 @@
+body {
+    background-color: #000000;
+    color: #FAFAFA;
+}
+
+/* Header */
+header {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo-naff {
+    color: #ad46ff;
+    font-size: 25px;
+}
+
+.logo-style {
+    color: #FAFAFA;
+    font-size: 25px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-links a {
+    color: #ad46ff;
+    text-decoration: none;
+    font-size: 17px;
+    transition: opacity 0.3s;
+}
+
+.nav-links a:hover {
+    opacity: 0.7;
+}
+
+.header-divider {
+    border: none;
+    border-top: 1px solid #282828;
+    margin: 0;
+}
+
+/* Imágenes centradas */
+.imagen-centrada {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imagen-centrada img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Página principal - Index */
+.index-logo {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.index-nav {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 40px 0;
+}
+
+.index-nav a {
+    color: #ad46ff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    transition: opacity 0.3s;
+}
+
+.index-nav a:hover {
+    opacity: 0.7;
+}
+
+/* Contenido centrado */
+.contenido-centrado {
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.contenido-centrado h3 {
+    color: #FAFAFA;
+    margin: 20px 0;
+}
+
+.contenido-centrado p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Proyectos */
+.lista-proyectos {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.lista-proyectos-item {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.lista-proyectos-item strong {
+    color: #ad46ff;
+    font-size: 22px;
+}
+
+.lista-proyectos-item p {
+    margin: 10px 0;
+}
+
+.lista-proyectos-link {
+    color: #ad46ff;
+    text-decoration: none;
+    font-size: 15px;
+    transition: opacity 0.3s;
+}
+
+.lista-proyectos-link:hover {
+    opacity: 0.7;
+}
+
+.section-divider {
+    border: none;
+    border-top: 1px solid #282828;
+    margin: 30px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Artistas */
+.artistas-wrapper {
+    padding: 20px;
+}
+
+.artistas-table {
+    width: 100%;
+    border: 0;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+.artistas-table td {
+    padding: 10px;
+}
+
+.artista-nombre {
+    color: #ad46ff;
+    font-size: 22px;
+}
+
+.artista-redes-titulo {
+    color: #ad46ff;
+}
+
+/* Ropa */
+.tabla-ropa {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.tabla-ropa th,
+.tabla-ropa td {
+    border: 1px solid #FAFAFA;
+    padding: 15px;
+}
+
+/* Transicion */
+@view-transition {
+  navigation: auto;
+  
+}
+
+.contenido-nf {
+  background: #181818;
+  border: 2px solid #ad46ff;
+  border-radius: 10px;
+  padding: 50px;
+  max-width: 820px;
+  margin: 40px auto;
+  font-family: 'Georgia', serif;
+  color: #FAFAFA;
+  position: relative;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+/* Párrafos internos */
+.contenido-nosotros p {
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 24px;
+}
+
+/* Transicion */
+@view-transition {
+  navigation: auto;
+  
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naff Style | Contacto</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="header">
+        <div class="logo">
+            <h1>
+                <a href="index.html">
+                    <span class="logo-naff">NAFF</span>
+                    <span class="logo-style">STYLE</span>
+                </a>
+            </h1>
+        </div>
+        <nav class="nav-links">
+            <a href="proyectos.html">PROYECTOS</a>
+            <a href="nosotros.html">SOBRE NOSOTROS</a>
+            <a href="contacto.html">CONTACTO</a>
+        </nav>
+    </div>
+    <hr class="header-divider">
+</header>
+
+<!-- Imagen Contacto -->
+<div class="imagen-centrada">
+    <img src="img/contacto.png" width="250" height="150" alt="Contacto">
+</div>
+
+<!-- Formulario Contacto -->
+<div class="contenido-nf">
+    <h3>Puedes contactar con nosotros de distintas formas.</h3>
+    <p>Mediante nuestro Instagram:</p>
+    <a href="https://www.instagram.com/naff.style/"><img src="img/instagram.png" width="20" height="20"></a>
+    <p>O rellenando el siguiente formulario:</p>
+    <form name="formulario" method="post" action="mailto:oscarbernases02@gmail.com" enctype="text/plain">
+        <fieldset>
+            <label>
+                Nombre:
+                <br>
+                <input type="text" name="nombre" placeholder="Introduce tu nombre" pattern="[A-Za-z]{1,10}" required><br/>
+            </label>
+            <br>
+            <label>
+                Correo electrónico:
+                <br>
+                <input type="email" name="correo" placeholder="Introduce tu correo" pattern="[a-z0-9._+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required><br/>
+            </label>
+            <br>
+            <label>
+                Motivo del Contacto
+                <br>
+                <select name="motivo" required>
+                    <option value="">- Selecciona -</option>
+                    <option value="info">Información General</option>
+                    <option value="ropa">Información Ropa</option>
+                    <option value="artista">Quiero ser un artista</option>
+                    <option value="batallas">Batallas de Gallos</option>
+                    <option value="otro">Otro Motivo</option>
+                </select>
+            </label>
+            <br><br>
+            <label>
+                Asunto:
+                <br>
+                <textarea name="asunto" rows="5" cols="60" placeholder="Introduce el motivo del contacto" required></textarea>
+            </label>
+            <br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </fieldset>
+    </form>
+</div>
+
+</body>
+</html>

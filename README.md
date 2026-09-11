@@ -26,9 +26,9 @@ Este repositorio contiene la implementación del sitio web corporativo, desarrol
 
 ```
 naff-style-web/
-├── index.html          Página principal
-├── proyectos.html       Resumen de las líneas de actividad de la marca
-├── ropa.html            Catálogo de producto
+├── index.html            Página principal
+├── proyectos.html        Resumen de las líneas de actividad de la marca
+├── ropa.html             Catálogo de producto
 ├── artistas.html         Sección de artistas promocionados
 ├── batallas.html         Información sobre Laguna Battles
 ├── nosotros.html         Sobre la marca

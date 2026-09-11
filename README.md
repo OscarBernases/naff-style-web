@@ -2,10 +2,6 @@
 
 Sitio web sobre **Naff Style**, marca de cultura urbana que combina la venta de ropa con la promoción de artistas independientes y la organización de eventos de freestyle.
 
-## Live Preview
-
-https://oscarbernases.github.io/naff-style-web/index.html
-
 ## Descripción
 
 Naff Style es una plataforma independiente construida en torno a tres líneas de actividad:
